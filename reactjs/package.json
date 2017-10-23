@@ -1,16 +1,19 @@
 {
-  "name": "reactjs",
+  "name": "reactapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darren-comprsa/LearningReact1.git"
   },
-  "author": "",
+  "keywords": [
+    "react"
+  ],
+  "author": "Darren Surtie",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/darren-comprsa/LearningReact1/issues"
